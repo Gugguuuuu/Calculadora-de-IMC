@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1 class="title">Gustavo OL</h1>
+    <div class="calculadora">
+        <h2>Calculadora de IMC</h2>
+        <p class="resultado"></p>
+        <input type="number" class="entrada" placeholder="Digite sua altura (responda em metros)" id="altura">
+        <input type="number" class="entrada" placeholder="Digite quantos quilos você tem (responda em kilogramas)" id="peso">       
+        <button class="enviar" onclick="enviar()">
+            enviar
+        </button>
+        <p class="grade-imc">
+            <strong>Quais são as categorias de IMC?</strong> <br>
+            IMC: faixas de peso <br>
+            Abaixo do Peso (IMC abaixo de 18,5) <br>
+            Peso Normal (IMC entre 18,5 e 24,9) <br>
+            Sobrepeso (IMC entre 25 e 29,9) <br>
+            Obesidade (IMC entre 30 e 34,9) <br>
+            Obesidade Grau II (IMC entre 35 e 39,9) <br>
+            Obesidade Grau III (IMC acima de 40) ou obesidade mórbida.
+        </p>
+    </div>
+</body>
+</html>
